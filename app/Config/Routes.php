@@ -9,7 +9,7 @@ $routes->setDefaultNamespace('App\Controllers');
 $routes->setTranslateURIDashes(false);
 $routes->set404Override(function () {
     http_response_code(404);
-    echo "404 - Notfff Found";
+    echo "404 - Not Found";
     die();
 });
 
